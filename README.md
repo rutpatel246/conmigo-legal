@@ -8,4 +8,4 @@ Public landing pages for the ConMigo travel companion app:
 
 Live site: https://rutpatel246.github.io/conmigo-legal/
 
-Contact: abcs.rutpatel@googlemail.com
+Contact: to-do
