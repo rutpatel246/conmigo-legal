@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ConMigo — Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  html, body {
+    margin: 0; padding: 0;
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", system-ui, sans-serif;
+    background: #f7f5f1; color: #1c1b1f;
+  }
+  @media (prefers-color-scheme: dark) {
+    html, body { background: #121117; color: #ecebef; }
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 24px 96px; }
+  h1 { font-size: 30px; margin: 0 0 8px; letter-spacing: -0.01em; }
+  .meta { font-size: 13px; opacity: 0.6; margin-bottom: 32px; }
+  h2 { font-size: 20px; margin-top: 36px; }
+  p, li { margin: 10px 0; }
+  ul { padding-left: 22px; }
+  a { color: #4c6c8d; }
+  nav a { font-weight: 500; text-decoration: none; }
+  nav { margin-bottom: 20px; font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <nav><a href="index.html">← Back</a></nav>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Last updated: 17 May 2026</p>
+
+  <p>This Privacy Policy describes how ConMigo (“we”, “us”) handles your information when you use the ConMigo mobile app. ConMigo is operated by an independent developer for the purpose of helping travellers plan, organise, and remember their trips.</p>
+
+  <h2>1. Information we collect</h2>
+  <ul>
+    <li><strong>Account information</strong> — your email address and display name. Optionally your date of birth and country of residence if you choose to provide them during onboarding.</li>
+    <li><strong>Travel preferences</strong> — your answers to the onboarding questionnaire (e.g. budget style, travel pace, preferred activities). These are used to personalise suggestions inside the app.</li>
+    <li><strong>Trip data</strong> — destinations, dates, bookings (hotels, flights, activities, food, transport), notes, and itinerary items that you create.</li>
+    <li><strong>Documents</strong> — any travel documents you choose to upload to the Docs Vault (e.g. ticket PDFs, passport photos). These are stored privately and only visible to you.</li>
+    <li><strong>Location</strong> — only while the app is open, and only when you give permission, in order to mark visited places on your trip map. We do not track your location in the background.</li>
+    <li><strong>Diagnostic events</strong> — when the Analytics toggle is enabled in Settings → Privacy, the app sends anonymised events (screen views, button taps, error reports) to PostHog. No raw chat messages, no document contents, no payment details, no full personal addresses are sent.</li>
+  </ul>
+
+  <h2>2. How we use your information</h2>
+  <ul>
+    <li>To create and manage your account.</li>
+    <li>To display your trips, bookings, and documents back to you.</li>
+    <li>To personalise suggestions from Migo (our AI travel assistant) using your preferences and current trip context.</li>
+    <li>To improve the app based on aggregated, anonymised usage patterns.</li>
+    <li>To investigate crashes and bugs that affect your experience.</li>
+  </ul>
+
+  <h2>3. Third parties we share data with</h2>
+  <p>ConMigo relies on a small number of trusted providers to deliver the service. We do not sell your data to anyone.</p>
+  <ul>
+    <li><strong>Supabase</strong> (cloud database and authentication) — stores your account, profile, trips, and documents.</li>
+    <li><strong>OpenAI</strong> — receives your trip context (destination, dates, preferences, itinerary items) so Migo can generate relevant responses. We do not send your name, email address, or document contents to OpenAI.</li>
+    <li><strong>PostHog</strong> (product analytics) — receives anonymised diagnostic events when you have Analytics enabled. We never send personally identifying free-text to PostHog.</li>
+    <li><strong>Google Places, Foursquare, Pexels, Open-Meteo, ExchangeRate API</strong> — used to fetch place suggestions, photos, weather forecasts, and currency rates. We send only the destination or query terms (e.g. “restaurants in Lisbon”), never your account information.</li>
+    <li><strong>Apple, Google</strong> — used as authentication providers when you choose Sign in with Apple or Google. They receive only the information necessary to verify your identity (your existing account email and basic profile).</li>
+  </ul>
+
+  <h2>4. Affiliate and partner links</h2>
+  <p>ConMigo may earn a small commission when you book through some partner links (e.g. Booking.com, Skyscanner, GetYourGuide). The commission comes from the partner, not from you — it does not cost you extra. You can identify these links by their booking provider name; tapping them opens the partner site in a secure in-app browser. We do not see what you book or how much you spend.</p>
+
+  <h2>5. How long we keep your data</h2>
+  <p>We keep your account and trip data for as long as your account exists. If you delete your account (Settings → Account → Delete account), your personal data is removed from our database within 30 days. Anonymised aggregate analytics may be retained indefinitely as they are not linked to you.</p>
+
+  <h2>6. Your rights</h2>
+  <ul>
+    <li><strong>Access and export</strong> — email us and we'll provide a copy of your data.</li>
+    <li><strong>Correction</strong> — edit your profile directly inside the app at Profile → Edit Profile.</li>
+    <li><strong>Deletion</strong> — Settings → Account → Delete account, or email us. Deletion is permanent and cannot be undone.</li>
+    <li><strong>Opt out of analytics</strong> — Settings → Privacy → Analytics toggle.</li>
+    <li><strong>Opt out of AI personalisation</strong> — Settings → Privacy → AI personalisation toggle.</li>
+  </ul>
+
+  <h2>7. Children</h2>
+  <p>ConMigo is not intended for and is not directed to anyone under the age of 13. We do not knowingly collect information from children under 13. If you believe a child has registered, please email us so we can remove the account.</p>
+
+  <h2>8. Security</h2>
+  <p>All communication between the app and our backend uses HTTPS. Your data at rest is stored with our infrastructure provider (Supabase) under their security standards. We use industry-standard practices (Row Level Security policies) so that users can only access their own data.</p>
+
+  <h2>9. Changes to this policy</h2>
+  <p>We may update this policy as the app evolves. The “Last updated” date at the top of this page will reflect any changes. Material changes (such as new third parties added, or new categories of data collected) will be communicated to active users via an in-app notice.</p>
+
+  <h2>10. Contact</h2>
+  <p>If you have questions about this policy or about how your data is handled, please email <a href="mailto:abcs.rutpatel@googlemail.com">abcs.rutpatel@googlemail.com</a>.</p>
+</main>
+</body>
+</html>
